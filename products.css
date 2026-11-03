@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6fb;
+  color: #1f2937;
+}
+
+/* Navigation bar: brand on the left, links in a row on the right */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #1e3a8a;
+}
+
+.brand {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #dbeafe;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.page-title {
+  text-align: center;
+  margin: 32px 0 24px;
+}
+
+/* Product cards side by side with space between them */
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 0 16px 32px;
+}
+
+.product-card {
+  width: 220px;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.product-name {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+}
+
+.product-price {
+  margin: 0;
+  color: #047857;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 16px;
+  text-align: center;
+  color: #6b7280;
+}
