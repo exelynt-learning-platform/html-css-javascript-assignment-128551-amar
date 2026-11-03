@@ -1,0 +1,59 @@
+/* Page background and base font */
+body {
+  margin: 0;
+  padding: 32px 16px;
+  background-color: #fdf3e7;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #3b2a1a;
+  line-height: 1.6;
+}
+
+/* Card that holds the whole recipe */
+.recipe-card {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px 32px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading colours */
+h1 {
+  color: #b5541c;
+  margin-top: 0;
+}
+
+h2 {
+  color: #6b8e23;
+  margin-bottom: 8px;
+}
+
+.description {
+  margin-bottom: 24px;
+}
+
+/* Box model: padding and border around the ingredient list */
+.ingredient-list {
+  margin: 0;
+  padding: 16px 16px 16px 36px;
+  border: 2px dashed #d8a066;
+  border-radius: 8px;
+  background-color: #fffaf3;
+}
+
+.ingredient-list li {
+  padding: 4px 0;
+}
+
+/* Spicy ingredients stand out */
+.spicy {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.spicy::after {
+  content: " (spicy)";
+  font-size: 0.85em;
+  font-weight: normal;
+}
