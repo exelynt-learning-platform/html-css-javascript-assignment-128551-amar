@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" viewBox="0 0 300 450" role="img" aria-label="3 Idiots poster">
+  <rect width="300" height="450" fill="#1e4d8c"/>
+  <circle cx="150" cy="170" r="90" fill="#f5c542"/>
+  <text x="150" y="200" font-family="Arial, sans-serif" font-size="96" font-weight="bold" fill="#1e4d8c" text-anchor="middle">3</text>
+  <text x="150" y="320" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">IDIOTS</text>
+  <text x="150" y="370" font-family="Arial, sans-serif" font-size="18" fill="#dbe6f5" text-anchor="middle">All Izz Well</text>
+  <text x="150" y="420" font-family="Arial, sans-serif" font-size="14" fill="#dbe6f5" text-anchor="middle">2009</text>
+</svg>
