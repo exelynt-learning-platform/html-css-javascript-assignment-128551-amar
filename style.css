@@ -1,0 +1,114 @@
+/* Day theme colours (default) */
+:root {
+  --bg: #fff4e0;
+  --surface: #ffffff;
+  --text: #4a2c17;
+  --accent: #c8641e;
+  --muted: #8a5a3b;
+  --border: #f0c99a;
+}
+
+/* Night theme colours, applied when body has the "night" class */
+body.night {
+  --bg: #2b1d14;
+  --surface: #3d2a1d;
+  --text: #fbeee0;
+  --accent: #f4a259;
+  --muted: #e0c3a6;
+  --border: #5c4130;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", "Segoe UI", Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px 24px;
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.theme-toggle {
+  padding: 8px 16px;
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+  background: transparent;
+  color: #ffffff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h2 {
+  color: var(--accent);
+}
+
+/* Three menu cards side by side using flexbox */
+.menu-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.menu-card {
+  flex: 1 1 200px;
+  padding: 20px;
+  background-color: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.menu-card h3 {
+  margin: 0 0 8px;
+}
+
+.price {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.hours {
+  padding-left: 20px;
+}
+
+a {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.site-footer {
+  padding: 16px;
+  text-align: center;
+  color: var(--muted);
+}
