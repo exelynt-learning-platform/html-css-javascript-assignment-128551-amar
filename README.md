@@ -1,2 +1,5 @@
-# html-css-javascript-assignment-128551-amar
-Module &amp; Week Assignments - This repository contains module-wise and week-wise assignment submissions.
+# Chai Corner - Tiny Cafe Menu
+
+A tiny menu page for a local chai and snacks cafe, with a day/night theme button.
+
+Live link: coming soon.
